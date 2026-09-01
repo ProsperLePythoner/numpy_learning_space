@@ -1,0 +1,587 @@
+{
+    "game_world": "Aethelgard Chronicles",
+    "data_version": "2.4.0",
+    "metadata": {
+        "total_records": 12,
+        "exported_at": "2026-09-01T08:52:26Z",
+        "description": "Character profiles, stats, equipment inventory, and quest logs for fantasy realm entities."
+    },
+    "characters": [
+        {
+            "id": "HERO-101",
+            "name": "Aeliana Sunstrider",
+            "title": "The Silent Blade",
+            "species": "Elf",
+            "class": "Mage",
+            "origin_realm": "Frostgard",
+            "attributes": {
+                "level": 50,
+                "health_points": 3206,
+                "mana_points": 1314,
+                "stats": {
+                    "strength": 37,
+                    "agility": 33,
+                    "intelligence": 89,
+                    "vitality": 31
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Celestial Blade",
+                    "type": "Weapon",
+                    "rarity": "Common",
+                    "stats_bonus": {
+                        "element": "Frost",
+                        "power": 169
+                    }
+                },
+                {
+                    "item_name": "Whispering Ring",
+                    "type": "Weapon",
+                    "rarity": "Artifact",
+                    "stats_bonus": {
+                        "element": "Nature",
+                        "power": 409
+                    }
+                },
+                {
+                    "item_name": "Celestial Staff",
+                    "type": "Armor",
+                    "rarity": "Legendary",
+                    "stats_bonus": {
+                        "element": "Shadow",
+                        "power": 53
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-888",
+                    "title": "The Curse of Dragon Peak",
+                    "difficulty": "Hard",
+                    "completed": false
+                }
+            ],
+            "is_active": true
+        },
+        {
+            "id": "HERO-102",
+            "name": "Kaelen Drake",
+            "title": "The Shadow Walker",
+            "species": "Goliath",
+            "class": "Paladin",
+            "origin_realm": "Eldoria",
+            "attributes": {
+                "level": 26,
+                "health_points": 4312,
+                "mana_points": 796,
+                "stats": {
+                    "strength": 65,
+                    "agility": 64,
+                    "intelligence": 97,
+                    "vitality": 53
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Celestial Ring",
+                    "type": "Weapon",
+                    "rarity": "Epic",
+                    "stats_bonus": {
+                        "element": "Fire",
+                        "power": 332
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-650",
+                    "title": "The Secret of Whispering Woods",
+                    "difficulty": "Nightmare",
+                    "completed": true
+                }
+            ],
+            "is_active": true
+        },
+        {
+            "id": "HERO-103",
+            "name": "Vespera Nightshade",
+            "title": "The Silent Blade",
+            "species": "Human",
+            "class": "Paladin",
+            "origin_realm": "Eldoria",
+            "attributes": {
+                "level": 44,
+                "health_points": 8298,
+                "mana_points": 813,
+                "stats": {
+                    "strength": 68,
+                    "agility": 55,
+                    "intelligence": 78,
+                    "vitality": 66
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Dreaded Amulet",
+                    "type": "Weapon",
+                    "rarity": "Artifact",
+                    "stats_bonus": {
+                        "element": "Shadow",
+                        "power": 409
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-979",
+                    "title": "The Forgotten Whispering Woods",
+                    "difficulty": "Nightmare",
+                    "completed": true
+                }
+            ],
+            "is_active": true
+        },
+        {
+            "id": "HERO-104",
+            "name": "Thorne Oakenshield",
+            "title": "The Flamekeeper",
+            "species": "Tiefling",
+            "class": "Paladin",
+            "origin_realm": "Frostgard",
+            "attributes": {
+                "level": 86,
+                "health_points": 2999,
+                "mana_points": 1728,
+                "stats": {
+                    "strength": 27,
+                    "agility": 49,
+                    "intelligence": 24,
+                    "vitality": 60
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Dreaded Blade",
+                    "type": "Weapon",
+                    "rarity": "Legendary",
+                    "stats_bonus": {
+                        "element": "Nature",
+                        "power": 211
+                    }
+                },
+                {
+                    "item_name": "Blazing Shield",
+                    "type": "Armor",
+                    "rarity": "Artifact",
+                    "stats_bonus": {
+                        "element": "Lightning",
+                        "power": 123
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-635",
+                    "title": "The Curse of Whispering Woods",
+                    "difficulty": "Nightmare",
+                    "completed": false
+                }
+            ],
+            "is_active": false
+        },
+        {
+            "id": "HERO-105",
+            "name": "Zephyr Vance",
+            "title": "The Whisperer",
+            "species": "Tiefling",
+            "class": "Paladin",
+            "origin_realm": "Valoria",
+            "attributes": {
+                "level": 32,
+                "health_points": 5374,
+                "mana_points": 2421,
+                "stats": {
+                    "strength": 31,
+                    "agility": 26,
+                    "intelligence": 34,
+                    "vitality": 39
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Blazing Shield",
+                    "type": "Accessory",
+                    "rarity": "Common",
+                    "stats_bonus": {
+                        "element": "Lightning",
+                        "power": 245
+                    }
+                },
+                {
+                    "item_name": "Celestial Ring",
+                    "type": "Armor",
+                    "rarity": "Legendary",
+                    "stats_bonus": {
+                        "element": "Holy",
+                        "power": 55
+                    }
+                },
+                {
+                    "item_name": "Whispering Ring",
+                    "type": "Armor",
+                    "rarity": "Artifact",
+                    "stats_bonus": {
+                        "element": "Shadow",
+                        "power": 107
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-650",
+                    "title": "The Siege of Whispering Woods",
+                    "difficulty": "Hard",
+                    "completed": true
+                }
+            ],
+            "is_active": false
+        },
+        {
+            "id": "HERO-106",
+            "name": "Ignis Pyre",
+            "title": "The Whisperer",
+            "species": "Goliath",
+            "class": "Rogue",
+            "origin_realm": "Ironreach",
+            "attributes": {
+                "level": 28,
+                "health_points": 8331,
+                "mana_points": 2961,
+                "stats": {
+                    "strength": 58,
+                    "agility": 84,
+                    "intelligence": 97,
+                    "vitality": 45
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Dreaded Staff",
+                    "type": "Accessory",
+                    "rarity": "Legendary",
+                    "stats_bonus": {
+                        "element": "Fire",
+                        "power": 356
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-665",
+                    "title": "The Siege of Citadel",
+                    "difficulty": "Medium",
+                    "completed": false
+                }
+            ],
+            "is_active": false
+        },
+        {
+            "id": "HERO-107",
+            "name": "Soren Whisperwind",
+            "title": "The Shadow Walker",
+            "species": "Elf",
+            "class": "Rogue",
+            "origin_realm": "Ironreach",
+            "attributes": {
+                "level": 25,
+                "health_points": 1901,
+                "mana_points": 2390,
+                "stats": {
+                    "strength": 28,
+                    "agility": 88,
+                    "intelligence": 36,
+                    "vitality": 36
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Celestial Ring",
+                    "type": "Weapon",
+                    "rarity": "Rare",
+                    "stats_bonus": {
+                        "element": "Arcane",
+                        "power": 360
+                    }
+                },
+                {
+                    "item_name": "Celestial Staff",
+                    "type": "Accessory",
+                    "rarity": "Artifact",
+                    "stats_bonus": {
+                        "element": "Nature",
+                        "power": 152
+                    }
+                },
+                {
+                    "item_name": "Dreaded Shield",
+                    "type": "Accessory",
+                    "rarity": "Artifact",
+                    "stats_bonus": {
+                        "element": "Shadow",
+                        "power": 274
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-960",
+                    "title": "The Siege of Citadel",
+                    "difficulty": "Medium",
+                    "completed": true
+                }
+            ],
+            "is_active": true
+        },
+        {
+            "id": "HERO-108",
+            "name": "Lyra Frostweaver",
+            "title": "The Storm Bringer",
+            "species": "Elf",
+            "class": "Necromancer",
+            "origin_realm": "Ironreach",
+            "attributes": {
+                "level": 44,
+                "health_points": 6020,
+                "mana_points": 1302,
+                "stats": {
+                    "strength": 20,
+                    "agility": 29,
+                    "intelligence": 100,
+                    "vitality": 27
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Whispering Blade",
+                    "type": "Armor",
+                    "rarity": "Common",
+                    "stats_bonus": {
+                        "element": "Arcane",
+                        "power": 171
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-642",
+                    "title": "The Siege of Whispering Woods",
+                    "difficulty": "Nightmare",
+                    "completed": true
+                }
+            ],
+            "is_active": false
+        },
+        {
+            "id": "HERO-109",
+            "name": "Grommash Ironfist",
+            "title": "The Shadow Walker",
+            "species": "Goliath",
+            "class": "Ranger",
+            "origin_realm": "Obsidian Wastes",
+            "attributes": {
+                "level": 67,
+                "health_points": 2759,
+                "mana_points": 786,
+                "stats": {
+                    "strength": 32,
+                    "agility": 75,
+                    "intelligence": 65,
+                    "vitality": 74
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Celestial Blade",
+                    "type": "Accessory",
+                    "rarity": "Artifact",
+                    "stats_bonus": {
+                        "element": "Nature",
+                        "power": 100
+                    }
+                },
+                {
+                    "item_name": "Whispering Shield",
+                    "type": "Accessory",
+                    "rarity": "Rare",
+                    "stats_bonus": {
+                        "element": "Holy",
+                        "power": 105
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-627",
+                    "title": "The Curse of Whispering Woods",
+                    "difficulty": "Nightmare",
+                    "completed": false
+                }
+            ],
+            "is_active": true
+        },
+        {
+            "id": "HERO-110",
+            "name": "Nyx Shadowrunner",
+            "title": "The Flamekeeper",
+            "species": "Human",
+            "class": "Paladin",
+            "origin_realm": "Aetheria",
+            "attributes": {
+                "level": 46,
+                "health_points": 8363,
+                "mana_points": 708,
+                "stats": {
+                    "strength": 76,
+                    "agility": 90,
+                    "intelligence": 32,
+                    "vitality": 26
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Whispering Blade",
+                    "type": "Weapon",
+                    "rarity": "Uncommon",
+                    "stats_bonus": {
+                        "element": "Lightning",
+                        "power": 298
+                    }
+                },
+                {
+                    "item_name": "Celestial Staff",
+                    "type": "Armor",
+                    "rarity": "Common",
+                    "stats_bonus": {
+                        "element": "Frost",
+                        "power": 244
+                    }
+                },
+                {
+                    "item_name": "Whispering Shield",
+                    "type": "Armor",
+                    "rarity": "Epic",
+                    "stats_bonus": {
+                        "element": "Shadow",
+                        "power": 266
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-856",
+                    "title": "The Siege of Whispering Woods",
+                    "difficulty": "Medium",
+                    "completed": false
+                }
+            ],
+            "is_active": true
+        },
+        {
+            "id": "HERO-111",
+            "name": "Orion Starfall",
+            "title": "The Unbroken",
+            "species": "Dwarf",
+            "class": "Berserker",
+            "origin_realm": "Ironreach",
+            "attributes": {
+                "level": 22,
+                "health_points": 7327,
+                "mana_points": 1684,
+                "stats": {
+                    "strength": 27,
+                    "agility": 26,
+                    "intelligence": 94,
+                    "vitality": 81
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Blazing Blade",
+                    "type": "Accessory",
+                    "rarity": "Common",
+                    "stats_bonus": {
+                        "element": "Holy",
+                        "power": 145
+                    }
+                },
+                {
+                    "item_name": "Whispering Ring",
+                    "type": "Weapon",
+                    "rarity": "Artifact",
+                    "stats_bonus": {
+                        "element": "Holy",
+                        "power": 170
+                    }
+                },
+                {
+                    "item_name": "Celestial Blade",
+                    "type": "Accessory",
+                    "rarity": "Uncommon",
+                    "stats_bonus": {
+                        "element": "Arcane",
+                        "power": 354
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-520",
+                    "title": "The Forgotten Dragon Peak",
+                    "difficulty": "Nightmare",
+                    "completed": false
+                }
+            ],
+            "is_active": false
+        },
+        {
+            "id": "HERO-112",
+            "name": "Balthazar Grim",
+            "title": "The Shadow Walker",
+            "species": "Gnome",
+            "class": "Berserker",
+            "origin_realm": "Shadowfen",
+            "attributes": {
+                "level": 45,
+                "health_points": 3375,
+                "mana_points": 2021,
+                "stats": {
+                    "strength": 36,
+                    "agility": 58,
+                    "intelligence": 78,
+                    "vitality": 60
+                }
+            },
+            "inventory": [
+                {
+                    "item_name": "Whispering Shield",
+                    "type": "Accessory",
+                    "rarity": "Legendary",
+                    "stats_bonus": {
+                        "element": "Fire",
+                        "power": 87
+                    }
+                }
+            ],
+            "active_quests": [
+                {
+                    "quest_id": "QST-775",
+                    "title": "The Curse of Sunken Temple",
+                    "difficulty": "Medium",
+                    "completed": false
+                }
+            ],
+            "is_active": true
+        }
+    ]
+}
