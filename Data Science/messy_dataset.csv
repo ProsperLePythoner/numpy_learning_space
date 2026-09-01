@@ -1,0 +1,11 @@
+Transaction_ID,Customer_Name,Category,Price,Quantity,Purchase_Date
+TXN_101,Alice Smith,Electronics ,$120.50,2.0,2026-08-01
+TXN_102,Bob Jones,Electronics,$85.00,1.0,2026-08-02
+TXN_103,charlie brown, Clothing,$45.00,3.0,03/08/2026
+TXN_104,Diana Prince,Clothing,$200.00,,2026-08-04
+TXN_105,Evan Wright,ELECTRONICS,$120.50,2.0,2026-08-05
+TXN_106,Fiona Gallagher,Home & Kitchen,$35.99,5.0,2026-08-06
+TXN_106,Fiona Gallagher,Home & Kitchen,$35.99,5.0,2026-08-06
+TXN_107,,Electronics,$99.99,1.0,2026-08-07
+TXN_108,Ian Malcolm,,$450.00,1.0,2026-08-08
+TXN_109,Julia Roberts, Home & Kitchen ,$12.50,4.0,2026-08-09
