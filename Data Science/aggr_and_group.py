@@ -23,3 +23,22 @@ print(f"\n\nSCI-FI SHOWS:\n{grouped_by_genre.get_group('Sci-Fi')}")
 
 
 ## 2. AGGREGATION
+# Calculate total viewership (in millions) for each Network [ SINGLE-COLUMN ]
+total_network_views = raw_data.groupby('Network')['Views_Millions'].sum()
+total_genre_views = raw_data.groupby('Genre')['Views_Millions'].sum()
+
+print(f"\n\nTOTAL VIEWERSHIP PER NETWORK: {total_network_views}")
+print(f"\nTOTAL VIEWERSHIP PER GENRE: {total_genre_views}")
+
+# Calculate multiple metrics with .agg()
+network_summary = raw_data.groupby('Network').agg(
+    {
+        'Show_Title': 'count',
+        'Avg_Rating': 'mean',
+        'Views_Millions': 'sum'
+    }
+)
+
+# Rename columns to make the report tidy
+network_summary.columns = ['Total Shows', 'Avg Rating', 'Total Views (Millions)']
+print(f"\n\n---- NETWORK PERFORMANCE SUMMARY ----:\n{network_summary}")
