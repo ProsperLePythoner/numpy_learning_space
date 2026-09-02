@@ -1,0 +1,25 @@
+import pandas as pd
+
+raw_csv_data = """Show_ID,Show_Title,Network,Genre,Debut_Year,Seasons,Avg_Rating,Views_Millions
+101,The Simpsons,FOX,Animation,1989,35,8.6,12.4
+102,Family Guy,FOX,Animation,1999,22,8.1,7.2
+103,Ben 10: Alien Force,Cartoon Network,Action,2008,3,7.7,3.1
+104,The Amazing World of Gumball,Cartoon Network,Animation,2011,6,8.3,2.8
+105,Stranger Things,Netflix,Sci-Fi,2016,4,8.7,14.0
+106,The Office,NBC,Comedy,2005,9,8.9,10.5
+107,Parks and Recreation,NBC,Comedy,2009,7,8.6,4.8
+108,Avatar: The Last Airbender,Nickelodeon,Action,2005,3,9.3,5.6
+109,SpongeBob SquarePants,Nickelodeon,Animation,1999,14,8.2,8.9
+110,Futurama,FOX,Sci-Fi,1999,11,8.5,4.2
+111,Rick and Morty,Adult Swim,Sci-Fi,2013,7,9.1,6.1
+112,Adventure Time,Cartoon Network,Animation,2010,10,8.6,3.5
+113,Brooklyn Nine-Nine,NBC,Comedy,2013,8,8.4,5.1
+114,Bojack Horseman,Netflix,Animation,2014,6,8.8,3.9
+115,The Mandalorian,Disney+,Sci-Fi,2019,3,8.7,11.2
+"""
+
+# Save directly to a CSV file
+with open('shows_dataset.csv', 'w') as f:
+    f.write(raw_csv_data.strip())
+
+print("Created 'shows_dataset.csv' successfully!")

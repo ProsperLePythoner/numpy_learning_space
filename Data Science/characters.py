@@ -24,3 +24,7 @@ print(f"\n\nMODERN SHOWS:\n{modern_shows}")
 # Try renaming one column
 data.rename(columns={'Name': 'Character Name'}, inplace=True)
 print(f"\n\nRENAME COLUMN 'Name' to 'Character Name':\n{data}")
+
+# Reindex each row with numbers 1 through 4 instead
+data.index = range(1, len(data) + 1)
+print(f"\n\nREINDEXED DATA:\n{data}")
