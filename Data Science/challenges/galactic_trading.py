@@ -20,7 +20,7 @@ Goal: Analyze trade performance across every combination of Outpost and Resource
             max_credits
 """
 
-from .. import data_formatting
+from learning import data_formatting
 import pandas as pd
 
 # Interstellar Trade Log Dataset
@@ -32,3 +32,15 @@ data = {
 }
 
 df = pd.DataFrame(data)
+
+# Challenge 1...
+outposts = df.groupby('Outpost', as_index=False).agg({'Volume_Tons': 'sum', 'Credits_Earned': 'sum'})
+print(f"Data grouped by Outpost:\n{outposts}\n")
+
+# Challenge 2...
+performance_summary = df.groupby('Outpost').agg(
+    avg_volume = ('Volume_Tons', 'sum'),
+    total_credits = ("Credits_Earned", "sum"),
+    max_credits = ("Credits_Earned", "max")
+)
+print(f"\nPerformance summary:\n{performance_summary}\n")
