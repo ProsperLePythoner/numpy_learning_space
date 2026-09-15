@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 import data_formatting # Custom module
 
 # Read raw csv dataset
@@ -42,3 +43,8 @@ network_summary = raw_data.groupby('Network').agg(
 # Rename columns to make the report tidy
 network_summary.columns = ['Total Shows', 'Avg Rating', 'Total Views (Millions)']
 print(f"\n\n---- NETWORK PERFORMANCE SUMMARY ----:\n{network_summary}")
+
+network_summary.plot(kind='bar', title='Network Performance Summary')
+plt.xlabel('Network')
+plt.ylabel('Percentage')
+plt.show()
